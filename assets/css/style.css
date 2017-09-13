@@ -1,0 +1,316 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+p, a, label, ul, ol, dl, li, .top-bar-section ul li > a, button, .button, .accordion .accordion-navigation > a, .accordion dd > a, table, tr, td, thead {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: url("../images/bg.jpg") scroll center top rgba(0, 0, 0, 0);
+}
+
+p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+header.header {
+}
+
+.top-bar, .top-bar ul {
+  background: #F6F6F6;
+}
+
+.menu>li>a {
+  color: #252223;
+  padding: .7rem 1rem;
+  line-height: 1.75;
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+
+.menu .active>a,.menu>li>a:hover {
+  background: #fff;
+  color: #000;
+}
+
+a {
+  color: #000;
+}
+
+.off-canvas-content {
+  background: transparent;
+}
+
+div#inner-content, div#inner-footer {
+  background: #fff;
+}
+
+div#inner-footer {
+  padding: .75rem 0 0;
+  background: #F5F5F5;
+  background: url("../images/footer-bg.jpg") scroll center top rgba(0, 0, 0, 0);
+}
+
+.dropdown.menu.medium-horizontal>li.is-dropdown-submenu-parent>a:after {
+  border-color: #000 transparent transparent;
+}
+
+.tricky {
+  display: block !important;
+}
+
+ul.slick-dots {
+  margin-left: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 1.5rem 0 1rem;
+  margin: 0;
+  font-weight: 300;
+  font-style: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+h2.pHeadline {
+  font-size: 1.635rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  padding: 1.25rem 0;
+}
+
+h2.pHeadline span {
+  font-weight: 300;
+}
+
+.featured-block, .suppliers-block {
+  text-align: center;
+}
+
+.f-block {
+  border: 1px solid #e8e8e8;
+  margin-bottom: 1.25rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+.product-block h4, .suppliers-block h4 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: .5rem 0;
+}
+
+.row {
+  max-width: 60rem;
+}
+
+.column, .columns {
+  padding-left: 1.15rem;
+  padding-right: 1.15rem;
+}
+
+.row .row {
+  margin-left: -1.15rem;
+  margin-right: -1.15rem;
+}
+
+a.logo {
+  display: block;
+  height: 68px;
+  width: 337px;
+  background: url("../images/logo.png") top left no-repeat;
+  background-size: contain;
+  font-size: 0;
+  margin: 1.15rem 0;
+}
+
+.pageFeaturedImage {
+  margin: 0 0 20px;
+  background-position: left center;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+
+.suppliers-block > div.row {
+  background: #fff;
+  border-top: 1px solid #e1e1e1;
+}
+
+h4.widgettitle {
+  font-size: 13px;
+  color: #282828;
+}
+
+.widget_text > div.widget_bg {
+  background-color: rgb(245, 245, 245);
+  background-image: url("../images/stripe.png");
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  border-color: rgb(225, 225, 225);
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  padding: .75rem 1.25rem;
+}
+div.footer-contact .widget_text:after{
+content: '';
+  display: block;
+  bottom: 0px;
+  width: 98%;
+  height: 7px;
+  background: transparent;
+  border-radius: 100%;
+  box-shadow: 0 20px 23px rgba(0,0,0,0.25);
+}
+.widget_text p {
+  font-size: 15px;
+  color: #8e8e8e;
+  line-height: 1.6em;
+}
+
+div#sidebar1 {
+  padding: 1rem;
+}
+h4.swidgettitle {
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+h4.swidgettitle::first-word {
+  font-weight: 300;
+}
+
+ul#menu-our-products li, ul#menu-selected-suppliers li {
+  display: block;
+  background: #F6F6F6;
+  margin-bottom: .25rem;
+}
+ul#menu-our-products li a, ul#menu-selected-suppliers li a{
+padding: .5rem;
+}
+
+ul#menu-our-products li.active a, ul#menu-selected-suppliers li.active a{
+  background-color: #252223;
+  color: #fff;
+}
+
+.widget_nav_menu {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 1rem;
+}
+.footer-contact .widget_text {
+  margin-bottom: 2rem;
+}
+a.accordion-title {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.accordion-title:focus, .accordion-title:hover, .accordion-title:active {
+  background-color: #F6F6F6;
+  color: #252223;
+}
+.accordion-title:before{
+  font-size: 2rem;
+  line-height: 1.75;
+  margin: 0;
+  top: 0;
+}
+.productImage{
+  background-position: right center;
+}
+@media screen and (max-width:768px) {
+  a.logo {
+    height: 45px;
+    width: 230px;
+    margin: 0;
+  }
+  .pageFeaturedImage {
+    margin: 0 0 20px;
+    background-position: right center
+  }
+}
+@media screen and (max-width:640px) {
+  h1 {
+    font-size: 1.35rem;
+  }
+  a.logo {
+    height: 51px;
+    width: 250px;
+    margin: 0;
+  }
+}
+/******************************************************************
+
+Stylesheet: Retina Screens & Devices Stylesheet
+
+When handling retina screens you need to make adjustments, especially
+if you're not using font icons. Here you can add them in one neat
+place.
+
+******************************************************************/
+/******************************************************************
+
+Stylesheet: Print Stylesheet
+
+This is the print stylesheet. There's probably not a lot
+of reasons to edit this stylesheet.
+
+Remember to add things that won't make sense to print at
+the bottom. Things like nav, ads, and forms shouldbe set
+to display none.
+******************************************************************/
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    -webkit-filter: none !important;
+    filter: none !important;
+    -ms-filter: none !important; }
+  a, a:visited {
+    color: #444 !important;
+    text-decoration: underline; }
+    a:after, a:visited:after {
+      content: " (" attr(href) ")"; }
+    a abbr[title]:after, a:visited abbr[title]:after {
+      content: " (" attr(title) ")"; }
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+  thead {
+    display: table-header-group; }
+  tr, img {
+    page-break-inside: avoid; }
+  img {
+    max-width: 100% !important; }
+  @page {
+    margin: 0.5cm; }
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3; }
+  h2,
+  h3 {
+    page-break-after: avoid; }
+  .sidebar,
+  .page-navigation,
+  .wp-prev-next,
+  .respond-form,
+  nav {
+    display: none; } }
